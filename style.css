@@ -35,21 +35,23 @@ body {
 
 div {
 display: block;
+width: 900px;
 }
 
 .card {
     background: white;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
 }
 .text-center {
     text-align: center;
 }
 
 .container {
-    width: 500px;
+    width: 90%;
     margin: 30px auto;
 }
 
@@ -84,4 +86,32 @@ a:hover {
     display: inline-block;
     padding: 20px;
 }
-
+#sidebar {
+    background-color: #415865;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+/*.fa {
+    display: inline-block;
+    font: normal normal normal 25px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}*/
